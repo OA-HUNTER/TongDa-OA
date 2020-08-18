@@ -56,4 +56,9 @@ http[s]://TongDaOA.domain/ispirit/retrieve_pwd.php
 GET 参数username、email 可爆用户、邮箱
 http[s]://TongDaOA.domain/resque/worker.php 计算机名
 ```
+# RCE
+V11.6
+```
+http[s]://TongDaOA.domain/module/appbuilder/assets/print.php 任意文件删除
+```
 Enjoy yourself,Blue Team. :)
