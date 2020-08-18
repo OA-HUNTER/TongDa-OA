@@ -1,8 +1,9 @@
 # TongDa-OA
 
 # SQLi path
+
+# 2013-2017
 ```
-//2013-2017
 http[s]://TongDaOA.domain/module/crm2010/imageOperation/deleteImage.php 
 http[s]://TongDaOA.domain/module/crm2010/product/type_tree.php 
 http[s]://TongDaOA.domain/module/crm2010/select/getData.php 
@@ -27,5 +28,32 @@ http[s]://TongDaOA.domain/task/crm/payment_near_remind.php
 http[s]://TongDaOA.domain/task/crm/storage_near_remind.php
 http[s]://TongDaOA.domain/ispirit/myoa.php
 http[s]://TongDaOA.domain/ispirit/retrieve_pwd.php
+```
+# v11
+```
+http[s]://TongDaOA.domain/general/approve_center/list/roll_config.inc.php
+http[s]://TongDaOA.domain/general/bi_design/reportshop/report_bi.func.php
+http[s]://TongDaOA.domain/general/data_center/console/autocode/autocode.php
+http[s]://TongDaOA.domain/general/data_center/model_design/console/autocode/autocode.php
+http[s]://TongDaOA.domain/general/data_center/model_design/design/report/action.php
+http[s]://TongDaOA.domain/general/reportshop/design/report/action.php
+http[s]://TongDaOA.domain/general/project/portal/details/budget/table.php
+http[s]://TongDaOA.domain/general/reportshop/design/report/console/autocode/autocode.php
+http[s]://TongDaOA.domain/general/reportshop/workshop/report/attachment-remark/form3.php
+http[s]://TongDaOA.domain/general/system/user/get_key_user_info.php
+http[s]://TongDaOA.domain/general/workflow/list/roll_config.inc.php
+http[s]://TongDaOA.domain/interface/GetNewAPP.php
+http[s]://TongDaOA.domain/interface/GetNewAPP1.php
+http[s]://TongDaOA.domain/general/workflow/plugin/turn/kd_k3_applly/kd_k3_applly.php
+http[s]://TongDaOA.domain/general/workflow/document_list/roll_config.inc.php
+```
+# 通达OA TIPS：
+```
+http[s]://TongDaOA.domain/inc/expired.php 判断通达版本
+http[s]://TongDaOA.domain/inc/reg_trial.php
+http[s]://TongDaOA.domain/inc/reg_trial_submit.php
+http[s]://TongDaOA.domain/ispirit/retrieve_pwd.php
+GET 参数username、email 可爆用户、邮箱
+http[s]://TongDaOA.domain/resque/worker.php 计算机名
 ```
 Enjoy yourself,Blue Team. :)
